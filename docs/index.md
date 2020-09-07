@@ -1,3 +1,3 @@
 # DIGIT 100 GitHub repo
-Welcom to our introDH-Hub! We're glad you're here!
+Welcome to our introDH-Hub! We're glad you're here!
 
