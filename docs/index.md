@@ -10,5 +10,7 @@ Welcome to our introDH-Hub! We're glad you're here!
 Firebelly newt:
 ![my pet Japanese firebelly newt](images/littleNewt.jpg)
 
+<img src="images/littleNewt.jpg" alt="my pet Japanese firebelly newt"/>
+
 
 
