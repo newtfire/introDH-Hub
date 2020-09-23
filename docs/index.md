@@ -14,7 +14,7 @@ Welcome to our introDH-Hub! We're glad you're here!
 
 ## Animals I love
 Firebelly newt:
-<img src="images/littleNewt.jpg" alt="my pet Japanese firebelly newt" width="50"/>
+<img src="images/littleNewt.jpg" alt="my pet Japanese firebelly newt" width="150"/>
 Little Newt
 
 ![my pet Japanese firebelly newt](images/littleNewt.jpg)
