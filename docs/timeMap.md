@@ -31,7 +31,7 @@ My starter TimeMapper for our class is available from this link: [https://timema
 Your link is probably longer and full of gibberish if you remained anonymous. That is okay. You may find that you want a shorter custom link, and for that I recommend [bit.ly](https://bit.ly) or another custom link-shortener that you know and love. You can create a custom link with your name in it if you wish. 
 
 #### How to record your TimeMap with our class:
-Log in to [Courseweb](https://courseweb.pitt.edu) and go to the Discussion Board, where you will find a Discussion forum asking you to post a message containing two links:
+Log in to [Canvas](https://canvas.psu.edu) and find the assignment to submit your two TimeMapper URLs:
 1. Your Google Sheet (the link from the green Share button)
 1. Your TimeMapper visualization
 
