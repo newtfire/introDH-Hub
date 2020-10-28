@@ -4,6 +4,7 @@ Welcome to our introDH-Hub! We're glad you're here!
 ## About this site
 * [Portfolio of our digital work](portfolio.md)
 * [Résumé](resume.md)
+* [TimeMapper Assignment](timeMap.md)
 
 
 ## Resources for customizing a GitHub Pages Site Layout
