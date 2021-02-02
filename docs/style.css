@@ -1,0 +1,17 @@
+
+body {
+background-color: /*BurlyWood*/ #99ccff;
+/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
+color: indigo;
+font-family: arial, helvetica, sans-serif;
+}
+
+/* ebb: This is a comment in CSS: 
+ * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
+ * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
+ */
+
+ol {list-style-type: lower-alpha;
+padding: 5em;
+    
+}
