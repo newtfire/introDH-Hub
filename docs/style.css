@@ -1,6 +1,6 @@
 
-body {
-background-color: /*BurlyWood*/ #99ccff;
+body section section {
+background-color: BurlyWood; /*#99ccff;*/
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
 color: indigo;
 font-family: arial, helvetica, sans-serif;
