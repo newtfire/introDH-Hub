@@ -18,17 +18,22 @@
       <h1>introDH-Hub Model Site</h1>     
      <p>Welcome to our sample website on GitHub Pages!</p>
     <img src="images/newt-mosaic4.png" alt="Dr. B's firebelly newt image"/>
-      <!--Inside the src attribute is a RELATIVE file directory path.
+      <!--ebb: The <img> element holds information from a separate image file, stored in the images directory inside the website directory. 
+       The HTML <img> element pulls that image file into the page. You can write styling code with CSS to control relatively how much space it will take up in the browser window.
+       -->
+      <!--Inside the img src attribute is a RELATIVE file directory path.
       ABSOLUTE vs. RELATIVE
       Relative file associations are common for internal file references, like pointing to images. 
       -->
        
         <p>Here is a sample link to another website outside of this site. This link holds an <dfn>absolute URL</dfn> <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
         <p>But here is a link to another page inside my website: this is a <dfn>relative URL</dfn>:  <a href="innerPage.html">inner page on this website</a>.</p>
-       <!--ebb: The <img> element holds information from a separate image file, stored in the images directory inside the website directory. 
-       The HTML <img> element pulls that image file into the page. You can write styling code with CSS to control relatively how much space it will take up in the browser window.
-       -->
-        
+      <p>Here is another relative link to <a href="sampleXHTML.html">a page inside my website (inside this docs directory</a>.</p>
+      <p>We are writing HTML in the XHTML syntax, which means that all elements (including self-closing elements like <code>&lt;img&gt;</code>) must indicate how they close.
+      All elements in XHTML syntax must have a start tag and an end tag, or indicate that they are self-closing.
+      </p>
+      
+       
       <section> 
           <h2>A <dfn>second-level</dfn> heading, introducing an <dfn>ordered list</dfn></h2>
         <!--ebb: You can write CSS code to change the way this is ordered, from numbers to letters or symbols, for example. -->
