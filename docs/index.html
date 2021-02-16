@@ -16,28 +16,32 @@
         <!--ebb: Here is where the code for the visible display of a website appears! -->
   <section> 
       <h1>introDH-Hub Model Website</h1>  
-      <!--Site Navigation Menu Code A: Super Simple. We are wrapping some text in a <div> element to use it for styling as a block-level element.-->
-      <div class="menuA">Home  |  Resume  |  Gallery  |  Course Posts</div>
+      <!--2021-02-16 ebb: Site Navigation Menu Code A: Super Simple. We are wrapping some text in a <div> element to use it for styling as a block-level element.-->
+      <div class="menuA">Home  |  <a href="resume.html">Resume</a>  |  Gallery  |  Course Posts</div>
       
       
-      <!--Site Navigation Menu Code B: You can decide if you want this to be a horizontal or vertical arrangement, and make the bullets disappear using CSS.
+      <!--ebb: Site Navigation Menu Code B: You can decide if you want this to be a horizontal or vertical arrangement, and make the bullets disappear using CSS.
      See https://www.w3schools.com/css/css_navbar.asp
       -->
       <ul class="menuB"><li>Home</li> 
-          <li>Resume</li> 
+          <li><a href="resume.html">Resume</a></li> 
           <li>Gallery</li>
           <li>Course Posts</li>
       </ul>
       
      <p>Welcome to our <a href="sampleXHTML.html">sample</a> website on GitHub Pages!</p>
 
-      
-      
-      
-      <figure>
+
+<figure class="photoGallery">
+    <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt"/>
+    <figcaption>Photo of my pet firebelly newt.</figcaption>
+</figure>
+        
+ <figure>
           <img src="images/cockatoo.jpg" alt="Dr. B's firebelly newt image"/>
           <figcaption>Image of a cockatoo from Australia or New Zealand. Source:<a href="http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo"> New Zealand Birds Online</a>.  </figcaption>
       </figure>
+
      <!--ebb: What you see in the @src is a filepath, that is RELATIVE. A relative file path is NOT absolute. --> 
      
       

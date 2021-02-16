@@ -1,9 +1,15 @@
 
-body section section {
+body {color: indigo;
+font-family: arial, helvetica, sans-serif; }
+/* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
+
+body section section { background-image: linear-gradient(purple, green);}
+
+body section {background-image: url("images/littleNewt.jpg");
+
 background-color: BurlyWood; /*#99ccff;*/
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: indigo;
-font-family: arial, helvetica, sans-serif;
+
 }
 
 /* ebb: This is a comment in CSS: 
@@ -11,13 +17,18 @@ font-family: arial, helvetica, sans-serif;
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
+figure {width:30%}
+img.photo {max-width:500px; width:100%}
+/* If I want to style ANY element with the class of "photo" I could just write 
+ * .photo { }
+ *  */
+
 ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
 
-
-div.menuA {text-align: center; font-size: 5vw ;}
+div.menuA {text-align: center; font-size: 4vw; }
 /*  Units to try: em and vw. vw means a percentage of the viewport width 
  * and is often used in responsive web design (responsive to size of device screens)
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
@@ -28,5 +39,5 @@ div.menuA {text-align: center; font-size: 5vw ;}
   
 }
 
-ul.menuB li {display:inline; font-size: 2em; margin: .5em;
-  padding: 1em;;}
+ul.menuB li {display:inline; font-size: 4vw; padding:2vw;}
+ 
