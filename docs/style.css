@@ -3,21 +3,19 @@ body {color: indigo;
 font-family: arial, helvetica, sans-serif; }
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
-body section section { background-image: linear-gradient(purple, green);}
+body section section { background-image: linear-gradient(purple, green); padding:2em;}
 
-body section {background-image: url("images/littleNewt.jpg");
+body section {background-image: url("images/littleNewt.jpg"); padding:2em;}
 
-background-color: BurlyWood; /*#99ccff;*/
-/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-
-}
+body section.gallery {background-color: lavender; background-image: none; padding:2em; margin:auto;}
 
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
-figure {width:30%}
+figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
+figcaption {font-style: italic; font-size: smaller;}
 img.photo {max-width:500px; width:100%}
 /* If I want to style ANY element with the class of "photo" I could just write 
  * .photo { }
@@ -28,7 +26,27 @@ padding: 5em;
     
 }
 
-div.menuA {text-align: center; font-size: 4vw; }
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: orange;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+div.menuA {text-align: center; font-size: 3vw; }
 /*  Units to try: em and vw. vw means a percentage of the viewport width 
  * and is often used in responsive web design (responsive to size of device screens)
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
@@ -39,5 +57,5 @@ div.menuA {text-align: center; font-size: 4vw; }
   
 }
 
-ul.menuB li {display:inline; font-size: 4vw; padding:2vw;}
+ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
  
