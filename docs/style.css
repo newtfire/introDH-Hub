@@ -58,4 +58,10 @@ div.menuA {text-align: center; font-size: 3vw; }
 }
 
 ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
+
+section#menu {padding:2vw; }
+ 
+ .button { border:2px; border-style:solid; border-color:red; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
+ border-radius: 20px;
+ }
  
