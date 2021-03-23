@@ -3,7 +3,7 @@
 First, prepare/access your Google Drive: 
 
 1. You will need a Google account to be able to work with Google Drive. [Create a Google account](https://edu.gcfglobal.org/en/googledriveanddocs/getting-started-with-google-drive/print/) if you don’t have one already. If you have a Google account, be sure you can log in to it and access Google Drive. 
-1. Create a folder for this class in your Google Drive: perhaps named "scienceFiction" or something convenient for you to quickly locate files you are working on. Make sure you know how to find your folder reliably. 
+1. Create a folder for this class in your Google Drive: perhaps named "DIGIT-100", "introDH", or something convenient for you to quickly locate files you are working on. Make sure you know how to find your folder reliably. 
 
 Now, you need a Google Sheet to start from, as well as Google Sheet template to consult:
 
