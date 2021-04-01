@@ -5,8 +5,19 @@ The difference is that this is *network analysis* software, which involves helpi
 To work with Kumu.io, you set up a free account, and you can work with a Google Sheet to organize data for import. That is what we will be doing.
 
 1) Begin by creating an account: 
-2) Then, copy my starter Kumu template to your Google Drive space: https://docs.google.com/spreadsheets/d/1lV4rAvh-LyLYF0fC1TSGdPMbELpE3bLjF8EVOCVkZuU/edit?usp=sharing 
-3) Set the Google Sheet to pulbi
+2) Then, copy [my starter Kumu template](https://docs.google.com/spreadsheets/d/1lV4rAvh-LyLYF0fC1TSGdPMbELpE3bLjF8EVOCVkZuU/edit?usp=sharing) to your Google Drive space. Here are Kumu's instructions:
+
+```
+    * Click the "Share" button in the upper right
+    * Click "Get shareable link"
+    * Set the permissions to "On - public on the web (Anyone on the internet can find and access. No sign-in required.)"
+    * Copy the shareable link URL, and go back to your Kumu map
+    * Click the green  button, select Import, and click the "Google Sheets" tab
+    * Paste your Google Sheets link into the box under Link to public Google Sheet
+```
+
+
+
 
 
 
