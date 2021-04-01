@@ -17,7 +17,13 @@ To work with Kumu.io, you set up a free account, and you can work with a Google 
 ```
 
 
+Once you have worked out how to organize data into columns and customize displays of of your network, work on designing a network that organizes relationships. 
 
+Your network should be developed from Elements with a coherently organized set of Types and Tags, and you should provide images and descriptions for at least the most important nodes. Elements can be anything you find significant: characters, objects, events, locations, shared identities, etc. Your network could show, for example, how characters are connected to other characters by means of objects.
+
+You do not have to plot out every kind of relationship imaginable, but choose to follow specific patterns and try to do so completely by finding everything of a kind. (If you are going to comment on character’s connected to objects, try to make sure you are capturing every object as it changes hands.)
+
+Choose the words you use for the Type and Tags columns with care to help you make an easily readable visualization. It’s best if the categorical words you apply for Types and Tags are reusable at least once. Run the Social Network Analysis function in Kumu to generate metrics to use in sizing your nodes and weighting your connections.
 
 
 
