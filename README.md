@@ -1,11 +1,11 @@
 # introDH-Hub
-shared repo for Digital Project Design class
+shared repo for Introduction to Digital Humanities class at Penn State Erie, The Behrend College
 
-Welcome to the introDH-Hub! This is a repository to help introduce and orient DIGIT students to the GitHub collaboration environment, and accompanies the course website posted at <https://newtfire.org/courses/textEncoding/>
+Welcome to the introDH-Hub! This is a repository to help introduce and orient DIGIT students to the GitHub collaboration environment, and accompanies the course website posted at <https://newtfire.org/courses/introDH/>
 
 In order for you to participate fully in this shared class space, I need to add you as a collaborator. [Set up your own GitHub account](https://github.com) and write to me to tell me how to find you.
 
-There are things we will do together only in the webpage view of GitHub: See if you can find the "Issues" and "Wiki" areas by mousing over the icons on the top (in the new view) or the right-hand (old view) side of the GitHub page: "Issues" is the exclamation point inside the circle, and the "Wiki" pages will be under the icon for a book. We're using the "Issues" page to open conversations about questions, problems, things we need to discuss and fix and work on together. If we formulate a new method or policy we definitely want to follow, we'll post a Wiki page about it. The Issues and Wikis are searchable, and you write in them using markdown syntax, which lets you easily and quickly format headings, lists, bold, italics, or share an image, etc.
+There are things we will do together only in the webpage view of GitHub: See if you can find the ”Issues” area by mousing over the icons on the top of the GitHub page: We're using the "Issues" page to open conversations about questions, problems, things we need to discuss and fix and work on together. The Issues are searchable, and you write in them using markdown syntax, which lets you easily and quickly format headings, lists, bold, italics, or share an image, etc.
 
 ## More advanced work with command line git 
 If you are a DIGIT major, in other classes (DIGIT 110, 210, 400), you'll be working extensively with git and GitHub on coding projects, and you will be learning command line git and GitHub. If you want, feel free to start learning and practicing here with our introDH-Hub. 
