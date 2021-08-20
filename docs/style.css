@@ -3,9 +3,9 @@ body {color: indigo;
 font-family: arial, helvetica, sans-serif; }
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
-body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
+/*body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
 
-body section {background-image: url("images/littleNewt.jpg"); padding:2em;}
+body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
 body section.gallery {background-color: lavender; background-image: none; padding:2em; margin:auto;}
 
