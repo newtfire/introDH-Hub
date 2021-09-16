@@ -1,5 +1,5 @@
 # introDH-Hub
-shared repo for Introduction to Digital Humanities class at Penn State Erie, The Behrend College
+shared repo for DIGIT 100: Introduction to Digital Humanities class at Penn State Erie, The Behrend College
 
 Welcome to the introDH-Hub! This is a repository to help introduce and orient DIGIT students to the GitHub collaboration environment, and accompanies the course website posted at <https://newtfire.org/courses/introDH/>
 
