@@ -1,4 +1,4 @@
-
+/* This is a comment in CSS. */
 body {color: indigo;
 font-family: arial, helvetica, sans-serif; }
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
@@ -31,9 +31,10 @@ a:link {
   color: red;
 }
 
-/* visited link */
+/* visited link. I used a hexadecimal color code for something dark green that I picked from: 
+ * https://www.w3schools.com/colors/colors_picker.asp  */
 a:visited {
-  color: green;
+  color: #006600;
 }
 
 /* mouse over link */
