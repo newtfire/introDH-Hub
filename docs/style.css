@@ -46,20 +46,20 @@ a:active {
   color: blue;
 }
 
-div.menuA {text-align: center; font-size: 3vw; }
+nav.menuA {text-align: center; font-size: 3vw; }
 /*  Units to try: em and vw. vw means a percentage of the viewport width 
  * and is often used in responsive web design (responsive to size of device screens)
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- ul.menuB {
+ nav ul.menuB {
   list-style-type: none;
   
 }
 
-ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
+nav ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
 
-section#menu {padding:2vw; }
+nav#menu {padding:2vw; }
  
  .button { border:2px; border-style:solid; border-color:red; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
  border-radius: 20px;
