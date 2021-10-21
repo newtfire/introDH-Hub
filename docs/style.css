@@ -7,14 +7,46 @@ font-family: arial, helvetica, sans-serif; }
 
 body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
-body section.gallery {background-color: lavender; background-image: none; padding:2em; margin:auto;}
+body section.writing {
+    background-color:aqua;
+    margin:auto;
+    padding:2em;
+    display:flex;
+    flex-direction:row; 
+    justify-content:space-between;
+}
+
+section.writing figure {
+    flex:1;
+   
+    padding: 3vw;
+    background-color:lemonchiffon;
+}
+
+section.writing div.analysis {
+    flex:1;
+    padding: 3vw;
+    background-color:maroon;
+    color:white;
+    
+}
+
+
+body section.gallery {
+    background-color: lavender; 
+    background-image: none; 
+    padding:2em; 
+    margin:auto; 
+    display:flex;
+    flex-direction:row;
+    }
 
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
-figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
+section.gallery figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
 figcaption {font-style: italic; font-size: smaller;}
 img.photo {max-width:500px; width:100%}
 /* If I want to style ANY element with the class of "photo" I could just write 
