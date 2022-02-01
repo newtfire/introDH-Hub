@@ -14,7 +14,6 @@
         <body> 
    
         <!--ebb: Here is where the code for the visible display of a website appears! -->
-  <section> 
       <h1>introDH-Hub Model Website</h1>  
       <!--2021-02-16 ebb: Site Navigation Menu Code A: Super Simple. We are wrapping some text in a <div> element to use it for styling as a block-level element.-->
       <nav class="menuA">Home  |  <a href="resume.html">Resume</a>  |  <a href="gallery.html">Gallery</a>  |  Course Posts</nav>
@@ -33,16 +32,7 @@
       
      <p>Welcome to our <a href="sampleXHTML.html">sample</a> website on GitHub Pages!</p>
       
-      <iframe src="https://timemapper.okfnlabs.org/anon/hi38dz-uber-history?embed=1" frameborder="0" style="border: none;" width="100%" height="780;"></iframe>
-      
-      <iframe src="https://timemapper.okfnlabs.org/anon/lw41u8-felipes-timemap?embed=1" frameborder="0" style="border: none;" width="100%" height="780;"></iframe>
-      
-      <iframe src="https://timemapper.okfnlabs.org/anon/yen8cs-julians-time-map?embed=1" frameborder="0" style="border: none;" width="100%" height="780;"></iframe>
-      
-      <iframe src="http://timemapper.okfnlabs.org/anon/yen8cs-julians-time-map?embed=1" width="80%" height="500;"></iframe>
-      
-      <iframe src="https://timemapper.okfnlabs.org/anon/gq9o2g-emilycarr_timemap?embed=1" frameborder="0" style="border: none;" width="100%" height="780;"></iframe>
-      
+    
 <figure class="photoGallery">
     <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt"/>
     <figcaption>Photo of my pet firebelly newt.</figcaption>
@@ -62,9 +52,13 @@
       </p>
       
        
-      <section> 
+      <section> <!-- ebb: Make a section in your webpage just to organize different parts of the page.
+      The <section> element should always have a heading element inside <h1>, <h2>, etc. to identify what's here.
+      Using section elements and numbering your heading elements in order helps make your site maximally accessible to people who 
+      read websites with screen readers, braille browsers, and other devices that don't rely exclusively on using your eyes.
+      -->
           <h2>A <dfn>second-level</dfn> heading, introducing an <dfn>ordered list</dfn></h2>
-        <!--ebb: You can write CSS code to change the way this is ordered, from numbers to letters or symbols, for example. -->
+        <!--ebb: You can write CSS code to change the *way* this is ordered, from numbers to letters or symbols, for example. -->
         <ol>
             <li>dawn</li>
             <li>afternoon</li>
@@ -77,13 +71,7 @@
         <p>When should I use <b>bold</b> vs. <strong>strong</strong> in HTML code? These are <dfn>inline</dfn> elements.</p>
         <p> Other HTML elements like the <dfn>p</dfn> (for paragraph) or the heading level elements, or ordered and unorderd lists, or img elements make
             blocks on the page and are known as <dfn>block</dfn> elements.</p> 
- 
-        
       </section>
-      
-      
-      
-      
       <section>
           <h2>An unordered list of amphibians</h2>
         <ul>
@@ -93,7 +81,7 @@
         </ul>
   </section>
   
-  </section>
+  
        
     </body>
 </html>
