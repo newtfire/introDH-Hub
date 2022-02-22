@@ -85,16 +85,25 @@ nav.menuA {text-align: center; font-size: 3vw; }
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- nav ul.menuB {
+ nav > ul.menuB {
   list-style-type: none;
+
   
 }
 
-nav ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
+nav ul.menuB li {display:inline; 
+font-size: 2vw; /*padding:2vw;*/
+  padding-left:1vw;
+  padding-right:1vw;
+  padding-top:5vw;
+  padding-bottom:10vw;
+
+
+}
 
 nav#menu {padding:2vw; }
  
- .button { border:2px; border-style:solid; border-color:red; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
+.button { border:2px; border-style:solid; border-color:blue; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
  border-radius: 20px;
  }
  
