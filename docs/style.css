@@ -1,6 +1,6 @@
 /* This is a comment in CSS. */
 body {color: indigo;
-background-color: pink;
+background-color: Gainsboro;
 font-family: arial, helvetica, sans-serif; }
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
@@ -82,20 +82,35 @@ a:active {
   color: blue;
 }
 
-nav.menuA {text-align: center; font-size: 3vw; }
+/*nav.menuA {text-align: center; font-size: 3vw; }*/
 /*  Units to try: em and vw. vw means a percentage of the viewport width 
  * and is often used in responsive web design (responsive to size of device screens)
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- nav > ul.menuB {
-  list-style-type: none;
+ nav {background-color:aqua;
+ display:flex;
+ 
+ }
 
+ nav > img.photo {
+max-width:200px;
+     flex:1;
+ }
+ 
+ nav > ul.menuB {
+ list-style-type: none;
+flex:9;
   
 }
 
-nav ul.menuB li {display:inline; 
-font-size: 2vw; /*padding:2vw;*/
+
+
+
+
+nav ul.menuB li {
+  display:inline;
+  font-size: 1.5vw; /*padding:2vw;*/
   padding-left:1vw;
   padding-right:1vw;
   padding-top:5vw;
