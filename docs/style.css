@@ -8,6 +8,8 @@ font-family: arial, helvetica, sans-serif; }
 
 body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
+p {padding:1em; line-height:2em;}
+
 body section.writing {
     background-color:purple;
     margin:auto;
