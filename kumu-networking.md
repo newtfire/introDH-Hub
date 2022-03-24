@@ -1,7 +1,7 @@
 # Setting up a Kumu.io network
 
-Kumu.io is network analysis software built a little like TimeMapper, designed to pull together resources and organize them to be shared on the web. 
-The difference is that this is *network analysis* software, which involves helping to visually organize *connecting relationships or interactions* between distinct *nodes*. 
+Kumu.io is network analysis software is designed to pull together resources and organize them to be shared on the web. 
+This is *network analysis* software, which involves helping to visually organize *connecting relationships or interactions* between distinct *nodes*. 
 To work with Kumu.io, you set up a free account, and you can work with a Google Sheet to organize data for import. That is what we will be doing.
 
 1) Begin by creating an account: 
