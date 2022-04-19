@@ -17,7 +17,8 @@ chmod -R 775 Where[tab]
 Here I started typing the first few letters and hit the tab key to autocomplete the filename. When you run this, you can check the permissions again with `ls - lisa` and see that they are changed. 
 
 Now, if you try opening the file, you'll see a different error: Mac won't want to open something from an unidentified developer. Bypass that with:
-[control] + click
+[control] + click 
+or, hold down shift + click (you might need to repeat this once or twice).
 Then you see a different screen: Are you sure you want to open something from an unidentified developer? Answer: yes. 
 
 
