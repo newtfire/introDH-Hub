@@ -12,7 +12,7 @@ Open your Terminal (the same one you use for GitHub) to the location of the game
 * In your terminal, run `ls` and look for a folder named "MacOS" or something that looks like it might contain files specific to running the game on Mac. Use `cd` to navigate into that folder, and use `ls` to look inside. For the game "Where the Goats Are," for example, I found a file inside MacOS/ named "WheretheGoatsAre1.0.2fMac" 
 * From the terminal "standing on" the folder containing the Mac file you just found, run `ls - lisa` to see the file permissions on the file. When I ran this, I saw `rw-rw-r--`. Those are file permission settings, and the series should be `rwxrwxr-x`. We can change it with this command:
 ```
-chmod 775 Where[tab]
+chmod -R 775 Where[tab]
 ```
 Here I started typing the first few letters and hit the tab key to autocomplete the filename. When you run this, you can check the permissions again with `ls - lisa` and see that they are changed. 
 
