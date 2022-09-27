@@ -12,11 +12,11 @@
     -->
     </head>
     <body>
-        <!--ebb: Here is where the code for the visible display of a website appears! -->
+        <!--ebb: Here inside the <body> element is where the code for the visible display of a website appears. -->
         <h1>introDH-Hub Model Website</h1>
-        <!--2021-02-16 ebb: Site Navigation Menu Code A: Super Simple, but you need a <p> element to wrap around the contents so the links will work. 
-      -->
-   <!--     <nav class="menuA">
+        <!-- ebb: I've commented out some code for a super simple site navigation menu. 
+            For the links to work, we'll need a <p> element to wrap around the contents:
+        <nav class="menuA">
             <p>
                 <a href="index.html">Home</a> | <a href="starter.html">Starting HTML Example</a> |
                     <a href="resume.html">Resume</a> | <a href="gallery.html">Gallery</a> | Course
@@ -36,37 +36,37 @@
             </ul>
         </nav>
         
-        
+      <section>  
+          <h1>Experimenting with HTML links: Absolute and Relative links</h1>
         <p>Welcome to our <a href="sampleXHTML.html">sample</a> website on GitHub Pages!</p>
-        <p>I'm making a change to this page.</p>
-        <figure class="photoGallery">
-            <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
-            <figcaption>Photo of my pet firebelly newt.</figcaption>
-        </figure>
-        <figure>
-            <img src="images/cockatoo.jpg" alt="Dr. B's firebelly newt image" />
-            <figcaption>Image of a cockatoo from Australia or New Zealand. Source:<a
-                    href="http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo"> New Zealand
-                    Birds Online</a>. </figcaption>
-        </figure>
+      
+      
+      
         <p>Here is a sample link to another website outside of this site. This link holds an
                 <dfn>absolute URL</dfn>
-            <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
+            <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>. Here is another link for an <dfn>absolute URL</dfn> that 
+            takes you to <a href="https://github.com/newtfire/introDH-Hub">the "code view" of the introDH-Hub GitHub repository</a>. Can you change
+        this to point to the code view of your own GitHub repository?</p>
         <p>But here is a link to another page inside my website: this is a <dfn>relative URL</dfn>:
                 <a href="innerPage.html">inner page on this website</a>.</p>
         <p>Here is another relative link to <a href="sampleXHTML.html">a page inside my website
-                (inside this docs directory</a>.</p>
+                (inside the same docs/ directory that holds this index.html file).</a>.</p>
         <p>We are writing HTML in the XHTML syntax, which means that all elements (including
             self-closing elements like <code>&lt;img&gt;</code>) must indicate how they close. All
             elements in XHTML syntax must have a start tag and an end tag, or indicate that they are
             self-closing. </p>
+      </section>
+        
         <section>
-            <!-- ebb: Make a section in your webpage just to organize different parts of the page.
+            <!-- ebb: You can make a <section> or a <div> element just to organize different parts of the page.
       The <section> element should always have a heading element inside <h1>, <h2>, etc. to identify what's here.
-      Using section elements and numbering your heading elements in order helps make your site maximally accessible to people who 
+     
+     Using section elements and numbering your heading elements in order helps make your site maximally accessible to people who 
       read websites with screen readers, braille browsers, and other devices that don't rely exclusively on using your eyes.
       -->
-            <h2>A <dfn>second-level</dfn> heading, introducing an <dfn>ordered list</dfn></h2>
+            <h2>Lists: <dfn>ordered</dfn> and <dfn>unordered</dfn> </h2>
+            <p>The heading above is smaller than the first one on this page, because I selected an <code>h2</code> element for a second-level heading.</p>
+            <!-- ebb: Look up what a <dfn> element is for: https://www.w3schools.com/tags/tag_dfn.asp -->
             <!--ebb: You can write CSS code to change the *way* this is ordered, from numbers to letters or symbols, for example. -->
             <ol>
                 <li>dawn</li>
@@ -91,6 +91,33 @@
                 <li>frog</li>
                 <li>toad</li>
             </ul>
+        </section>
+        <section>
+            <h2>Introducing images</h2>
+            <p>Images can be tricky to format. First let's just include them on the website. In your code, you point to an image file in your file directory
+                to make it appear on the page when it is published.</p>
+            <p>The <code>img</code> element is the basic code for including an image file on your page. The <code>@src</code> attribute points to a filepath
+                to your image. The <code>@alt</code> attribute provides a text description for screen readers, helping your images to be accessible to non-sighted readers
+                and also to assist with search retrievals (say, google searches) by providing some context of what's in the image. 
+                Writing code on a site to assist with search retrieval is called <dfn>Search Engine Optimization (SEO)</dfn>.
+            </p>
+            <p>Other code is here for styling and blocking on the page. A <code>figure</code> element is intended to help organize images and captions in a 
+            little nested structure, that makes it convenient to style for proportion on the page. I am also adding a <code>@class</code> attribute to help
+            me with styling different kinds of images (photos vs. small icons on my site). I write <a href="style.css">CSS code</a> to find elements with a <code>class="photo"</code>
+            and style them all the same way, and I put that code in a separate file so it can handle styling the same way across all the pages on my
+            website. I link that CSS stylesheet to my HTML files up in the <code>head</code> element. <em>Can you find the CSS <code>link</code> line in this file?</em></p>
+            
+            <figure class="photoGallery">
+                <img class="photo" src="images/littleNewt.jpg" alt="pet Japanese firebelly newt" />
+                <figcaption>Photo of my pet firebelly newt.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cockatoo.jpg" alt="Dr. B's firebelly newt image" />
+                <figcaption>Image of a cockatoo from Australia or New Zealand. Source:<a
+                    href="http://nzbirdsonline.org.nz/species/sulphur-crested-cockatoo"> New Zealand
+                    Birds Online</a>. </figcaption>
+            </figure>
+               
         </section>
     </body>
 </html>
