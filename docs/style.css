@@ -15,8 +15,8 @@ body section.writing {
     margin:auto;
     padding:2em;
 
-    display:flex;
-    flex-direction:row; 
+   display:flex;
+   /* flex-direction:row; */
     /*justify-content:space-around;*/
 }
 
@@ -27,20 +27,20 @@ section.writing figure {
 }
 
 section.writing div.analysis {
-      flex:1; 
+      flex:3; 
 
     padding: 3vw;
-    background-color:maroon;
+    background-color:black;
     color:white;
     
 }
 
 
 body section.gallery {
-  width: 80%;
+   width: 80%; 
     background-color: green; 
     padding:2em; 
-    margin:auto; 
+    /*margin:auto;*/ 
     display:flex;
     flex-direction:row;
     }
@@ -50,10 +50,18 @@ body section.gallery {
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
  */
 
-section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
-figcaption {font-style: italic; font-size: smaller;}
+section.gallery figure {
+    flex: 1; 
+    margin:auto; 
+    padding-top: 1vw; 
+    padding-bottom: 1vw; 
+    }
+figcaption {
+font-style: italic; 
+font-size: smaller;
+}
 
-img.photo {max-width:500px; width:80%}
+img.photo {max-width:800px; width:90%}
 /* If I want to style ANY element with the class of "photo" I could just write 
  * .photo { }
  *  */
@@ -106,10 +114,6 @@ flex:9;
   
 }
 
-
-
-
-
 nav ul.menuB li {
   display:inline;
   font-size: 1.5vw; /*padding:2vw;*/
@@ -126,4 +130,7 @@ nav#menu {padding:2vw; }
 .button { border:2px; border-style:solid; border-color:blue; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
  border-radius: 20px;
  }
+ 
+/*  TimeMapper Section */
+section.timemap {width: 80%; margin:auto;}
  
