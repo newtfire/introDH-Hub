@@ -4,8 +4,8 @@ Kumu.io is network analysis software is designed to pull together resources and 
 This is *network analysis* software, which involves helping to visually organize *connecting relationships or interactions* between distinct *nodes*. 
 To work with Kumu.io, you set up a free account, and you can work with a Google Sheet to organize data for import. That is what we will be doing.
 
-1) Begin by creating an account: 
-2) Then, copy [my starter Kumu template](https://docs.google.com/spreadsheets/d/1lV4rAvh-LyLYF0fC1TSGdPMbELpE3bLjF8EVOCVkZuU/edit?usp=sharing) to your Google Drive space. Here are Kumu's instructions:
+1) Begin by creating an account on [kumu.io](https://kumu.io/) by clicking Join for Free at the top right.
+2) Then, copy [my starter Kumu template](https://docs.google.com/spreadsheets/d/1ssAAI77nJjtSeAZmlG_OpG8f3DvCuywzNtp4XuBsidA/edit?usp=sharing) to your Google Drive space. Here are Kumu's instructions:
 
 ```
     * Click the "Share" button in the upper right
