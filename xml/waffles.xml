@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <section topic="intro">
+        <title>Belgian Waffles</title>
+        <para>Chef Ludo Lefebvre’s Belgian Waffles are light and crispy, with plenty of deep, large
+            squares for butter, syrup, whipped cream, and fresh berries. Be careful not to overmix
+            the egg whites which can cause the batter to clump. To prepare the batter ahead of time,
+            simply omit the egg whites until ready to make waffles. Then let the batter come to room
+            temperature, and gently fold in eggs.</para>
+
+        <author>By Ludo Lefebvre</author>
+        <pubDate>Published on November 1, 2018</pubDate>
+        <source>Source: Food&amp;Wine. <url
+                ref="https://www.foodandwine.com/recipes/belgian-waffles">URL:
+                https://www.foodandwine.com/recipes/belgian-waffles</url>
+        </source>
+        <time type="active" quant="20" unit="min">Active Time: 20 mins</time>
+        <time type="complete" quant="50" unit="min">Total Time: 50 mins</time>
+        <yield>Yield: 5 waffles</yield>
+    </section>
+    <teachableMoment><!-- 2023-01-26 ebb: This is an XML comment, and we use it to chat about the code with others who are reading it.
+    Technically what's here is separate from the document, but commenting on it in some way.
+    The tagging for this element is illustrating camelCase in markup.--> In mathematics, 4 &lt;
+        6 .</teachableMoment>
+
+    <section topic="ingredients">Ingredients 1 3/4 cups all-purpose flour 2 teaspoons granulated
+        sugar 2 teaspoons kosher salt 3 large eggs, separated 1 1/4 cups water 1 teaspoon pure
+        vanilla extract 8 ounces unsalted butter, melted, plus more for greasing Quartered
+        strawberries and unsweetened whipped cream, for serving Confectioners’ sugar, for
+        dusting</section>
+
+    <section topic="directions">
+        <heading>Directions</heading>
+        <step n="1">In a large bowl, whisk the flour with the sugar and salt. In a medium bowl, beat
+            the egg yolks with the water and vanilla. Stir the wet ingredients into the dry
+            ingredients, then stir in the butter until incorporated.</step>
+
+        <step n="2">In a medium bowl, using a handheld electric mixer, beat the egg whites at
+            medium-high speed until soft peaks form, about 2 minutes. Fold them into the
+            batter.</step>
+
+        <step n="3">Preheat the oven to <temp quant="200" unit="degrees-F">200°</temp>. Heat a
+            Belgian waffle iron, then grease it with melted butter. Spoon <meas>1 cup of the
+                batter</meas> into the iron, close the top and cook until the waffle is golden, 6
+            minutes. Transfer the waffle the prepared baking sheet and keep warm in the oven. Repeat
+            with the remaining batter. Top the waffles with quartered strawberries and unsweetened
+            whipped cream. Dust with confectioners' sugar and serve.</step>
+    </section>
+
+    <section>ADVERTISEMENT Local Offers Erie, PA 16509 Target Logo Featured Products Offer for
+        Unbleached All Purpose Flour - 5lbs - Good &amp; Gather™ Unbleached All Purpose Flour - 5lbs
+        - Good &amp; Gather™ All-purpose flour is great for all baking needs Offer for Granulated
+        Sugar - 4lbs - Good &amp; Gather™ Granulated Sugar - 4lbs - Good &amp; Gather™ Perfect for
+        baking or as a sweetener for beverages Offer for Grade A Large Eggs - 12ct - Good &amp;
+        Gather™ Grade A Large Eggs - 12ct - Good &amp; Gather™ Grade A Large Eggs make an excellent
+        staple in your kitchen Offer for Unsalted Butter - 1lb - Good &amp; Gather™ Unsalted Butter
+        - 1lb - Good &amp; Gather™ Ideal for cooking, baking or using as a spread</section>
+</root>
