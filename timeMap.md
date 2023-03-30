@@ -30,7 +30,7 @@ Now you are ready to share your Google Sheet with TimeMapper to build a web visu
 1. In Type of Data View, select **Timemap**.
 1. Leave the default settings for the last two options, and click the “Publish” button at the bottom. 
 
-My starter TimeMapper for our class is available from this link: [https://timemapper.okfnlabs.org/epyllia/sf-starter-timemapper](https://timemapper.okfnlabs.org/epyllia/sf-starter-timemapper).
+My starter TimeMapper for our class is available from this link: [https://timemapper.okfnlabs.org/anon/8m8cmr-dr-bs-starter-timemapper](https://timemapper.okfnlabs.org/anon/8m8cmr-dr-bs-starter-timemapper).
 Your link is probably longer and full of gibberish if you remained anonymous. That is okay. You may find that you want a shorter custom link, and for that I recommend [bit.ly](https://bit.ly) or another custom link-shortener that you know and love. You can create a custom link with your name in it if you wish. 
 
 #### How to record your TimeMap with our class:
