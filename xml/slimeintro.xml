@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <te>2 &lt; 5</te>
+    <!-- This is a comment in XML or HTML. I used this te element as a teaching example to point out how the ampersand character & is used for escape characters in markup, so we can represent < or > signs. What's inside comments isn't part of the  markup, so we can use & characters and angle brackets in here with no problem!  
+    -->
+    <proc num="1">For the simplest of all slime recipes, all you need is <ingred type="powder"
+            >cornstarch</ingred>. Just dump some into a bowl, add <ingred type="liq">some
+            water</ingred>, &amp; start mixing.</proc>
+    <proc num="2">Keep adding <ingred type="liq">water</ingred> until it reaches the consistency you
+        want <advice>a good place to start is 2 parts cornstarch to 1 part water</advice>.</proc>
+    <proc num="3">You can also add <ingred>food coloring</ingred> to make it look more legit.</proc>
+</root>
