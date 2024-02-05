@@ -1,0 +1,18 @@
+body {
+
+    /*background:papayaWhip*/
+    background: LightSteelBlue
+}
+
+div.side-by-side {
+    display: flex;
+}
+
+img {
+    width: 59%;
+    max-width: 500px;
+}
+
+nav {
+    background-color:pink;
+}
