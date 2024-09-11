@@ -24,7 +24,7 @@
 * If you need to **clone** a repository, do so here, because then the new repository will sit as a *child* inside your GitHub directory. Go to the git remote website and get its "Download/Clone" URL by copying it (green icon on right side of the repo's main page). 
 Then, in the Terminal/Command Line Shell, type `git clone` and paste in the the URL after that. So it looks like this for our textEncoding-Hub:
 ````
-git clone https://github.com/newtfire/textEncoding-Hub.git
+git clone https://github.com/newtfire/introDH-Hub.git
 ````
 Hit enter, and watch the lines scroll away in the command line terminal as the repository clones itself on your local computer inside your GitHub directory. 
 
