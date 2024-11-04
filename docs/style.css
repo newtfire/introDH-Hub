@@ -10,6 +10,13 @@ body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
 p {padding:1em; line-height:2em;}
 
+
+iframe.thinglink {width: 50vw;
+
+height: 70vh;
+
+}
+
 body section.writing {
     background-color:purple;
     margin:auto;
@@ -46,6 +53,8 @@ body section.gallery {
     flex-direction:row;
     }
 
+
+
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
  * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
@@ -61,7 +70,7 @@ section.gallery figure#whale {
     }
 figcaption {
 font-style: italic; 
-font-size: smaller;
+font-size: larger;
 }
 
 img.photo {max-width:500px; width:100%}
