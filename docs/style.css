@@ -1,157 +1,18 @@
-/* This is a comment in CSS. */
-body {color: indigo;
-background-color: Gainsboro;
-font-family: arial, helvetica, sans-serif; }
-/* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
-
-/*body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
-
-body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
-
-p {padding:1em; line-height:2em;}
-
-
-iframe.thinglink {width: 50vw;
-
-height: 70vh;
-
-}
-
-body section.writing {
-    background-color:purple;
-    margin:auto;
-    padding:2em;
-
-   display:flex;
-   /* flex-direction:row; */
-    /*justify-content:space-around;*/
-}
-
-section.writing figure {
-    flex:1;
-   padding: 3vw;
-    background-color:lemonchiffon;
-}
-
-section.writing div.analysis {
-      flex:3; 
-
-    padding: 3vw;
-    background-color:black;
-    color:white;
-    
-}
-
-
-body section.gallery {
-   width: 80%;
-   margin:auto;
-    background-color: green; 
-    padding:2em; 
-    /*margin:auto;*/ 
-    display:flex;
-    flex-direction:row;
-    }
-
-
-
-/* ebb: This is a comment in CSS: 
- * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
- * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
- */
- 
- section.gallery figure {flex:1;}
-
-section.gallery figure#whale {
-    flex: 5; 
-    margin:auto; 
-    padding-top: 1vw; 
-    padding-bottom: 1vw; 
-    }
-figcaption {
-font-style: italic; 
-font-size: larger;
-}
-
-img.photo {max-width:500px; width:100%}
-/* If I want to style ANY element with the class of "photo" I could just write 
- * .photo { }
- *  */
-
-ol {list-style-type: lower-alpha;
-padding: 5em;
-    
-}
-
-/* unvisited link */
-a:link {
-  color: red;
-}
-
-/* visited link. I used a hexadecimal color code for something dark green that I picked from: 
- * https://www.w3schools.com/colors/colors_picker.asp  */
-a:visited {
-  color: #006600;
-}
-
-/* mouse over link */
-a:hover {
-  color: orange;
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
-
-/*nav.menuA {text-align: center; font-size: 3vw; }*/
-/*  Units to try: em and vw. vw means a percentage of the viewport width 
- * and is often used in responsive web design (responsive to size of device screens)
- * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
- *  */
- 
- nav {background-color:aqua;
- display:flex;
- 
- }
-
- nav > img.photo {
-max-width:200px;
-     flex:1;
- }
- 
- nav > ul.menuB {
- list-style-type: none;
-flex:9;
-  
-}
-
-nav ul.menuB li {
-  display:inline;
-  font-size: 1.5vw; /*padding:2vw;*/
-  padding-left:1vw;
-  padding-right:1vw;
-  padding-top:5vw;
-  padding-bottom:10vw;
-
-
-}
-
-nav#menu {padding:2vw; }
- 
-.button { border:2px; border-style:solid; border-color:blue; padding:2vw; background-color:#E6E6FA; color:yellow; width:10%; display:inline;
- border-radius: 20px;
- }
- 
-/*  TimeMapper Section */
-section.timemap {width: 80%; margin:auto;}
- section.flex {display: flex;
-width:100%;;  
- }
- 
-div#kumu { flex:4;
-
- }
-.kumuDesc{flex:1}
-iframe#kumuPlot{width:100%; height:200%;}
- 
+body {
+                background: #D6DDF6;
+                font-family: "Lucida Console", "Courier New", monospace;
+            }
+            
+figure {width:20%;
+             background: /*#EFD6F6*/ white;;
+            }
+            
+img {width:80%;}
+            
+img#PSB {width:10%;}
+            
+section{
+            background: coral;
+            width:90%;
+            margin:auto;
+            }
