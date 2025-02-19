@@ -17,42 +17,61 @@
             I used it to apply a background color to the body element.
         -->
         <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
+        
         <link rel="stylesheet" type="text/css" href="style.css" />
- 
+   
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>My Resume</h1>
+    <img src="images/psu-logo.svg" id="PSB" alt="Penn State Behrend logo"/>
+        <h1>Resume of Dr. B</h1>
+        
         <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> 
+           <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> 
         </nav>
-        <section>
-            <h2>Second Level Block Heading</h2>
+        
+     <div class="flex">   
+         <section class="resume">
+            <h2>Education</h2>
+            
+           <section class="inner">
+               <h3>Penn State Behrend,</h3>
+               
+               <ul>
+                <li>Class of 2060</li>
+                <li>Major: Digital Media, Arts, and Technology (DIGIT)</li>
+                <li>Relevant coursework: ART 168 (digital art production), DIGIT 100 (web development)</li>
+            </ul>
+           </section>
+            
+          <section class="inner">  
+              <h3>W &amp; J College</h3>
+            <ul>
+               <li>graduated 1993, B.A. English</li>
+                <li>Presidential Scholarship</li>
+            </ul>
+          </section>
             
         </section>
-        <section>
-            <h2>What are block elements good for?</h2>
-            <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted
-                list. Let's make a link to the <a href="https://bulletins.psu.edu/">Penn State
-                    Bulletin</a> (which is where you can read information about classes and
-                programs). </p>
-            <ul>
-                <li>headings</li>
-                <li>paragraphs</li>
-                <li>lists</li>
-                <li>tables</li>
-                <li>images</li>
-            </ul>
-            <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very
-                similar to the <q>unordered</q> list. You have to see the difference by viewing in a
-                web browser.</p>
-            <ol>
-                <li>morning</li>
-                <li>noon</li>
-                <li>afternoon</li>
-                <li>evening</li>
-                <li>night</li>
-            </ol>
+        <section class="resume">
+            <h2>Work Experience</h2>
+            
+            <section class="inner">
+                <h3>University of Pittsburgh at Greensburg</h3>
+                <ul>
+                    <li>Taught literature survey courses and coding</li>
+             
+                    <li>Advised student clubs</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                
+            </section>
+
+            
         </section>
+</div>
     </body>
 </html>

@@ -17,9 +17,28 @@ img#PSB {
     width: 10%;
 }
 
+
+div.flex {
+    
+   display:flex; 
+   
+}
+
 section {
     background: pink;
     width: 90%;
     margin: auto;
     padding:1em;
 }
+
+section.resume {
+    padding-left: 5em;
+    padding-right: 5em;
+    background:silver;
+   
+}
+
+section.inner {
+    background:lavender;
+}
+
