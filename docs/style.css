@@ -8,9 +8,14 @@ figure {
     background: /*#EFD6F6*/ white;
     ;
 }
+figcaption { 
+    text-align: center;
+}
 
 img {
     width: 80%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 img#PSB {
