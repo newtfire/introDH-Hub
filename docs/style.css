@@ -3,11 +3,15 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+iframe.thinglink {
+    width:960px; 
+    height:720px;}
+
 figure {
-    width: 20%;
     background: /*#EFD6F6*/ white;
-    ;
+    
 }
+
 figcaption { 
     text-align: center;
 }
