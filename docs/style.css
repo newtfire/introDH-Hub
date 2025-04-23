@@ -8,12 +8,16 @@ iframe.thinglink {
     height:720px;}
 
 figure {
-    background: /*#EFD6F6*/ white;
-    
+    background: /*#EFD6F6*/ white;  
+}
+figure.shelf { 
+   width:80%;
+   margin:auto;
 }
 
 figcaption { 
     text-align: center;
+    background:aqua;
 }
 
 img {

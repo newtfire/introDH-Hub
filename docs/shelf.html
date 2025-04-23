@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
+     * On Windows, go to the browser and type control + o and browse to find this file to open it.
+     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
+     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
+    -->
+    <head>
+        <!-- What's in the <head> element is a "meta" area not for display. 
+            It holds important information about the website's contents.
+            The text inside the <title> element does show in the top tab of a web browser. 
+             The <head> is where we will include info about styling the site, too. -->
+        <title>Shelf</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1>Library Shelf Visualization Project</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> | <a href="shelf.html">Shelf Project</a>
+        </nav>
+        
+        <h2>Photo of my shelf</h2>
+        
+        <figure class="shelf">
+               <!-- ADD AN IMAGE HERE OF THE LIBRARY SHELF! -->
+               <figcaption>Photo of my library shelf. My shelf was about ...</figcaption>
+        </figure>
+        
+        <h2>Network of topics in PSU library resources</h2>
+        <p>The following images represent more than just the physical library shelf. 
+            I found other resources available on the virtual "shelf" across the library. We pulled in topic information and format etc. 
+        I made a visual network to show how these resources are related.</p>
+        <figure class="shelf">
+            <img alt="Palladio network of topics relating the virtual and physical shelf texts" 
+                src="images/palladioNet.svg"/>
+            <figcaption>Network of ..... </figcaption>
+        </figure>
+        
+    </body>
+</html>
