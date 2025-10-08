@@ -10,59 +10,36 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Gallery</title>
+        <title>Starter HTML</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <!-- This code below is called CSS: It stands for Cascading Stylesheets -->
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Gallery</h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="resume.html">Resume</a> | <a href="shelf.html">Shelf Project</a>
+        <nav class="featureBlock">
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
+            
         </nav>
+        <p>This is my Gallery page.</p>
         
-        <section class="thinglink" id="southeyroom">
-            <h3>An interactive, annoted 3D view of my home office</h3>
-            
-            <figure class="wide"> 
-                <iframe class="thinglink"  src="https://www.thinglink.com/view/scenario/1888752663462412774"></iframe><br/><a href="https://www.thinglink.com/view/scenario/1888752663462412774/accessibility" target="_blank" rel="noopener noreferrer">Click here to view the accessible version of this interactive content</a>
-                <figcaption>This was made from Scaniverse on an iPhone XS Max (no lidar), and annotated using Thinglink, thanks to Penn State's subscription to this 3D annotation software.</figcaption>
-                
-            </figure>
-            <p>Try using a mouse or two fingers to expand the view and turn around to take a close look around my office! </p>
-            
-        </section>
-        <section class="thinglink" id="stansted">
-            <h3>Stansted House's Historic Kitchen</h3>
-            <iframe width="960" height="720" 
-                src="https://www.thinglink.com/view/scenario/1888695273849356774" ></iframe>
-            <br/><a href="https://www.thinglink.com/view/scenario/1888695273849356774/accessibility" target="_blank" rel="noopener noreferrer">Click here to view the accessible version of this interactive content</a>
-            <p>This is not a library, but I pulled it from Thinglink's 360 degree image library and annotated it.</p>
-        </section>
- 
-  
-        <div class="flex">  
         
-           
+        <div class="side-by-side">
+            <p>Go back to my <a href="index.html">main page</a>.</p>
             <figure>
-                <img src="images/Whale-VasconcelosBiblio-MexicoCity.jpg" alt="whale skeleton at university library in Mexico City" />
-                <figcaption>Photo of a whale skeleton at a university library in Mexico City. </figcaption>
+                <img src="images/llama_mp.jpg" />
+                <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
+                    Picchu, on the Inca Trail.</figcaption>
             </figure>
-              <figure>
-                  <img src="images/bd-lilley-library-interior-1.jpg" alt="Penn State Behrend Lilley Library" />
-                  <figcaption>Lilley Library at Penn State Behrend, home of our firebelly newt: <a
-                          href="https://newtfire.org">newtfire.org</a></figcaption>
-              </figure>
-              <figure>
-                  <img src="images/mertonCollLibrary.jpg" alt="Merton College Library" />
-                  <figcaption>Merton College Library at Oxford University</figcaption>
-              </figure>
-          
-    </div>
+           
+        </div>
+        <footer class="featureBlock">
+            <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>
+            <p>We are . . . Digit at Penn State Behrend!</p>
+        </footer>
     </body>
 </html>
