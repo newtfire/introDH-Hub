@@ -5,8 +5,8 @@
 ## Quick reference
 * Open terminal / command line shell
 * Navigate to repo.
-* `git pull`
-     * To check if there are changes on the remote repository that you do not have, enter: `git fetch && git status`
+* `git pull` -- pull in any changes from the remote repository.
+     * To check if there are changes on the remote repository, enter: `git fetch && git status` and read the results.
 * Make changes.
 * `git status` -- list of changes should be red
 * `git add -A` 
